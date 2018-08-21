@@ -1,0 +1,81 @@
+div { margin: 0; padding: 0; }
+div div { background: #A4CA39; position:relative; }
+
+.container {
+    margin: 100px auto;
+    height: 404px;
+    width: 334px;
+}
+
+.head {
+    width: 220px;
+    height: 100px;
+    top: 32px;
+    border-radius: 110px 110px 0 0;
+}
+
+.l_ant, .r_ant {
+    height: 50px;
+    width: 6px;
+    position: absolute;
+    border-radius: 3px;
+    top: -34px;
+}
+.l_ant { 
+    left: 50px; 
+    transform: rotate(-30deg);
+}
+.r_ant { 
+    right: 50px; 
+    transform: rotate(30deg);
+}
+
+.l_eye, .r_eye {
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 42px;
+}
+.l_eye { left: 50px; }
+.r_eye { right: 50px; }
+
+
+.body {
+    width: 220px;
+    height: 184px;
+    top: 40px;
+    border-radius: 0 0 25px 25px;
+}
+
+.l_arm, .r_arm {
+    height: 150px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50px;
+}
+.l_arm { left: -58px;}
+.r_arm { right: -58px;}
+
+.l_leg, .r_leg {
+    height: 80px;
+    width: 50px;
+    position: absolute;
+    border-radius: 0 0 25px 25px;
+}
+.l_leg { left: 45px; top:182px }
+.r_leg { right: 45px; top:182px}
+
+/*the code below was copy and pasted, i need to lookup how to use this code*/
+.head:hover {
+    transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.l_arm:hover { 
+    transform: rotate(15deg) translate(-14px, 0);
+}
+
+.r_arm:hover {
+    transform: rotate(-30deg) translate(30px, 0);
+}
